@@ -1,0 +1,3 @@
+# Core workflow uses only the Python standard library.
+# Install optional development and OTIO dependencies with:
+#   python -m pip install -e '.[dev,otio]'

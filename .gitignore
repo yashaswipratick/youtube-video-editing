@@ -1,0 +1,54 @@
+# Operating-system and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+
+# Python environments, caches, and generated build artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environment files and logs (keep .env.example files trackable)
+.env
+.env.*
+!.env.example
+*.log
+
+# Raw/local camera media and audio should stay outside Git
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.avi
+*.mts
+*.m2ts
+*.wav
+*.mp3
+*.aac
+*.flac
+*.aif
+*.aiff
+
+# Generated edit exports and reports
+output/*
+!output/.gitkeep
+
+# Personal vlog plans, transcripts, and editing reference material
+/plans/
+
+# Temporary files
+.tmp/
+tmp/
+temp/
+*.swp
+*.swo
+*~
